@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active-svg path {
+  fill: rgb(24, 119, 242);
+}
+
+.inactive-svg path {
+  fill: #637381;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="color"] {
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+input[type='file'] {
+  color: transparent;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.css-b9rdri-MuiGauge-referenceArc {
+  fill: rgb(255, 112, 72) !important;
+}
+
+.scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(24, 119, 242, 0.5) rgb(245, 245, 245);
+}
